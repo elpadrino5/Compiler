@@ -29,7 +29,7 @@ public class prj1 {
 	public static void main(String[] args) throws Exception 
 	{		
 		//File smplInput = new File (args[0]);		
-		File smplInput = new File ("C:\\Users\\Angel Hierrezuelo\\Desktop\\Spring 2020\\Compilers (COP 4620)\\Projects\\Project5\\input2.txt");	
+		File smplInput = new File ("file_path");	
 		BufferedReader bufr = new BufferedReader(new FileReader(smplInput));		
 		String line;
 		char current;		
