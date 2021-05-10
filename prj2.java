@@ -1049,7 +1049,7 @@ public class prj2
 	public static void main(String[] args) throws Exception 
 	{	
 		//File smplInput = new File (args[0]);		
-		File smplInput = new File ("C:\\Users\\Angel Hierrezuelo\\Desktop\\Spring 2020\\Compilers (COP 4620)\\Projects\\Project2\\terminal\\testOutput1.txt");				
+		File smplInput = new File ("file_path");				
 		BufferedReader bufr = new BufferedReader(new FileReader(smplInput));	
 		try {
 		prj2 classins = new prj2();
