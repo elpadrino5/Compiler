@@ -1564,7 +1564,7 @@ public class Prj4
 	public static void main(String[] args) throws Exception 
 	{	
 		//File smplInput = new File (args[0]);		
-		File smplInput = new File ("C:\\Users\\Angel Hierrezuelo\\Desktop\\Spring 2020\\Compilers (COP 4620)\\Projects\\Project5\\output.txt");				
+		File smplInput = new File ("file_path");				
 		BufferedReader bufr = new BufferedReader(new FileReader(smplInput));	
 	//	try {
 		Prj4 classins = new Prj4();
